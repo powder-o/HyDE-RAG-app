@@ -1,3 +1,5 @@
+*PS my friends asked me to post such tutorials. This is just my learnings. The explanations need not be a 100% correct. Hope this helps.*
+
 # Retrieval-Augmented Generation (RAG) with HyDE Implementation
 
 This project is a Python implementation of a **Retrieval-Augmented Generation (RAG)** system enhanced with **Hypothetical Document Embeddings (HyDE)**. The system takes user questions, retrieves relevant context using a hypothetical document generation step, and then uses a language model to generate an informed response. This approach is particularly useful for generating more accurate answers for complex or vague queries.
@@ -12,7 +14,7 @@ This project is a Python implementation of a **Retrieval-Augmented Generation (R
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/rag-hyde-implementation.gi
+   git clone https://github.com/powder-o/HyDE-RAG-app.git
    ```
 
 2. Install the required dependencies:
@@ -33,7 +35,7 @@ This project is a Python implementation of a **Retrieval-Augmented Generation (R
 4. **Final Response Generation**: The retrieved documents, combined with the original query, are used to generate a comprehensive response via the language model.
 
 ## File Structure
-- `rag_hyde_pipeline.py`: Main script for running the RAG pipeline with HyDE.
+- `hyde_implementation.ipynb`: jupyter notebook for running the RAG pipeline with HyDE.
 - `.env`: Environment file containing API keys.
 
 
