@@ -1,0 +1,10 @@
+tqdm
+langchain-chroma
+langchain-huggingface
+langchain-core
+groq
+huggingface-hub
+chroma-db
+pydantic
+python-dotenv
+uuid
